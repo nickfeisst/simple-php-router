@@ -1,6 +1,10 @@
 {
-  "name": "pecee/simple-router",
-  "description": "Simple, fast PHP router that is easy to get integrated and in almost any project. Heavily inspired by the Laravel router.",
+  "name": "nf/simple-router",
+  "description": "My custom fork of Pecee Simple Router. Simple, fast PHP router that is easy to get integrated and in almost any project. Heavily inspired by the Laravel router.",
+  "type": "library",
+  "replace": {
+      "pecee/simple-router": "self.version"
+  },
   "keywords": [
     "router",
     "router",
